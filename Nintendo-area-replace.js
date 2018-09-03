@@ -15,7 +15,7 @@
     "display":"block",
     "margin-bottom":"10px"
   };
-  var buttonGroup = '<div style="position: fixed;top:200px;right: 30px;"><button class="btn-change-place" data-id="102" data-country="181" >墨西哥</button><button class="btn-change-place" data-id="153" data-country="270">美国</button><button class="btn-change-place" data-id="75" data-country="148">日本</button><button class="btn-change-place" data-id="110" data-country="201">挪威</button></div>'
+  var buttonGroup = '<div style="position: fixed;top:200px;right: 30px;"><button class="btn-change-place" data-id="161" data-country="307" >南非</button><button class="btn-change-place" data-id="102" data-country="181" >墨西哥</button><button class="btn-change-place" data-id="153" data-country="270">美国</button><button class="btn-change-place" data-id="75" data-country="148">日本</button><button class="btn-change-place" data-id="110" data-country="201">挪威</button></div>'
   $("body").append(buttonGroup);
   $(".btn-change-place").css(buttonType);
   $(".btn-change-place").on("click",function(){
